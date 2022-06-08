@@ -1,0 +1,182 @@
+td {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+table {
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: 10px;
+    margin: 10px;
+    background: #f5f5f3;
+}
+
+.container {
+    margin: 20px auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    max-width: 550px;
+}
+
+.forms {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 15rem;
+    margin: 10px;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td:first-child {
+    background: #dee6ec;
+    color: rgb(48, 160, 252);
+    padding: 10px 20px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #f5f5f3;
+    color: rgb(92, 92, 92);
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+td:hover {
+  background-color: aquamarine;
+}
+tr:hover {
+  background-color: aquamarine;
+}
+th:hover {
+  background-color: aquamarine;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+HTML CSSResult Skip Results Iframe EDIT ON .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+
+.btn-3 {
+    background: rgb(0, 172, 238);
+    background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    color: #f5f5f3;
+    margin: 10px;
+
+}
+button {
+    background: rgb(0, 172, 238);
+    background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    width: 100px;
+    height: 30px;
+    line-height: 32px;
+    padding: 0;
+    border: none;
+    color: #f5f5f3;
+    margin: 10px;
+    text-decoration: inherit;
+
+}
+button a {
+    color: #f5f5f3;
+    text-decoration: inherit;
+}
+
+.btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+
+  .btn-3 span:hover{
+     color: rgba(2,126,251,1);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
